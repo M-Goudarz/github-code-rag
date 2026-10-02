@@ -4,8 +4,6 @@ A production-oriented **Retrieval-Augmented Generation (RAG)** system for unders
 
 Generic document RAG treats text as an undifferentiated stream of tokens. Software repositories are not documents: they are structured, symbol-dense, and full of cross-file references that make naive fixed-size splitting and pure semantic search unreliable. `github-code-rag` is designed specifically for software repositories, with planned support for code-aware chunking, hybrid retrieval, precise line-level citations, and benchmark-driven evaluation.
 
-> **Status:** 🚧 Initial foundation stage — the core RAG pipeline is not implemented yet.
-
 ---
 
 ## Overview
